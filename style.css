@@ -1,0 +1,860 @@
+/*Importar Tipografias*/
+@import url('https://fonts.googleapis.com/css2?family=Carattere&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatica+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Puppies+Play&display=swap');
+
+/*----------------------Hero Section---------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.Hero-Section{
+    background-image: url('Sabrina Imagenes/Sabri Portada original.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    position: relative
+}
+
+.SC-Logo{
+    width: 4.375rem;
+    height: auto;
+    display: block;
+    margin-right: auto;
+}
+
+.Navegation-bar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1.875rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4.0625rem;
+    z-index: 1000;
+    padding: 0 5%;
+    background-color: #244866;
+}
+
+.Navegation-bar a{
+    text-decoration: none;
+    font-family: 'Amatica SC', cursive;
+    font-size: 0.875rem;
+    color: #FFFFFF;
+}
+
+.Hero-Slogan{
+    position: absolute;
+    top: 45%;
+    left: 7%;
+}
+
+.Hero-Slogan h1{
+    font-family: 'Carattere', cursive;
+    color: #FFFFFF;
+    font-size: 2rem;
+}
+
+.Hero-Slogan p{
+    font-family: 'Playfair Display', cursive;
+    color: #FFFFFF;
+    font-size: 0.875rem;
+}
+
+.Hero-Button{
+    position: absolute;
+    top: 45%;
+    right: 7%;
+    width: 10rem;
+    height: 7rem;
+    z-index:10;
+}
+
+.Music-Button{
+    position:absolute;
+    top:2rem;
+    right:0;
+    background: transparent;
+    border-radius: 3.125rem;
+    border: 0.0625rem solid #FFFFFF;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 0.75rem 1.5rem;
+    font-size: 0.875rem;
+    white-space:nowrap;
+}
+
+.Star-img-button{
+ position: absolute;
+ width: 3.5rem;
+ right: 2.5rem;
+ top:0;
+ height: auto;
+ transform: rotate(0deg);
+}
+
+.Kiss-img-button{
+ position: absolute;
+ width: 3rem;
+ height: auto;
+ right: 0.5rem;
+ top: -1rem;
+}
+
+/*----------------------Biography Section---------------------------*/
+
+.Biography-Section{
+    background-color: #F4EDE3;
+    padding: 3.75rem 8%;
+}
+
+.Biography-Title{
+    display: flex;
+}
+
+.Biography-Title h1{
+     font-family: 'Carattere', cursive;
+    color: #244866;
+    font-size: 4.1rem;
+}
+
+.Biography-Title img{
+    width: 3.125rem;
+}
+
+.First-Paragraph-Bio{
+ display: flex;
+ justify-content: center;
+}
+
+.First-Paragraph-Bio p{
+ max-width: 31.25rem;
+ font-family: 'Playfair Display', serif;
+ color: #244866;
+ line-height: 1.7;
+}
+
+.First-Paragraph-Bio img{
+ width: 12.5rem;
+}
+
+.Second-Paragraph-Bio{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: row-reverse;
+ gap: 3rem;
+ margin: 0 auto 4rem;
+ max-width: 68.75rem;
+}
+
+.Second-Paragraph-Bio p{
+ max-width: 31.25rem;
+ font-family: 'Playfair Display', serif;
+ color: #244866;
+ font-size: 1rem;
+ line-height: 1.7;
+}
+
+.Second-Paragraph-Bio img{
+ width: 12.5rem;
+ height: auto;
+ flex-shrink: 0;
+}
+
+.Third-Paragraph-Bio{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+ width: 100%;
+ max-width: 56.25rem;
+ margin: 0 auto;
+ padding: 2.5rem 1.25rem;
+ gap: 3rem;
+}
+
+.Third-Paragraph-Bio p{
+ max-width: 31.25rem;
+ font-family: 'Playfair Display', serif;
+font-size:1rem;
+ color: #244866;
+ line-height: 1.5;
+}
+
+.Third-Paragraph-Bio img{
+ width: 11.25rem;
+ height: auto;
+ flex-shrink: 0;
+}
+
+/*----------------------Album Section---------------------------*/
+.Album-Section{
+    background-image: url('Sabrina Imagenes/Fondo_Albums.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    padding: 3.75rem 5%;
+}
+
+.Album-Section h1{
+   color: #FFFFFF;
+   font-family: 'Carattere', cursive;
+   gap: 1.25rem;
+   display: flex;
+   justify-content: left;
+   font-size: 4.1rem;
+   margin-bottom: 1.875rem;
+   text-shadow: 0.125rem 0.1875rem 0.3125rem rgba(36, 72, 102, 0.3) ;
+   margin-left: 3rem;
+}
+
+.Album-Description{
+    max-width: 20rem;
+    font-size: 0.875rem;
+    font-family: 'Puppies Play', cursive;
+    line-height: 1.7;
+}
+
+.Intro-Album{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.875rem;
+    margin-bottom: 2.5rem;
+}
+
+.Intro-Album img{
+    width: 16rem;
+    height: auto;
+    transform: none;
+}
+
+.Intro-p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Intro-p h3{
+    font-family: 'Carattere', cursive;
+    font-size: 1.125rem;
+    color: #708AAA;
+    margin-top: 0.3125rem;
+}
+
+.old-p-2{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.125rem;
+    color: #708AAA;
+    margin-top: 0,3125rem;
+}
+
+.Intro-p p{
+    color: #FFFFFF;
+    font-family: 'Playfair Display', serif;
+    margin-left: 1.25rem;
+    font-size: 1.0625rem;
+}
+
+.shortsweet-Album{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Videos-Introduction{
+    text-align: center;
+    margin-top: 3.125rem;
+    margin-bottom: 1.5625rem;
+}
+
+.Videos-Introduction p{
+    font-family: 'Playfair Display', serif;
+    color: #FFFFFF;
+    font-size: 0.9375rem;
+    margin-top: 0.625rem;
+}
+
+
+.shortsweet-Album{
+ background-image: url('Sabrina Imagenes/Papel Album.png');
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: 100% 100%;
+ width: 100%;
+ padding: 3rem;
+ display: flex;
+ gap: 3rem;
+ align-items: center;
+ justify-content: center;
+}
+
+.shortsweet-Album img{
+    position:relative;
+    width: 13rem;
+    top:0.625rem;
+    left: -8%;
+}
+
+.Song-List-1{
+    width: 12.5rem;
+    flex-shrink: 0;
+}
+
+.Song-List-1 ul{
+   margin-left: 1.25rem;
+   position: static;
+}
+
+.Song-List-1 li{
+   color:#244866;
+   font-family: 'Playfair Display', serif;
+}
+
+.Song-List-2{
+    width: 12.5rem;
+    flex-shrink: 0;
+}
+
+.Song-List-2 ul{
+   margin-left: 1.25rem;
+   position: static;
+}
+
+.Song-List-2 li{
+   color: #244866;
+   font-family: 'Playfair Display', serif;
+}
+
+.shortsweet-Album iframe{
+    width: 20%;
+    height: 10rem;
+}
+.div-video{
+    display: flex;
+    justify-content: center;
+    gap: 1.5625rem;
+    margin-top: 3.125rem;
+    flex-wrap: wrap;
+}
+
+.Video-Introduction h2{
+    position: relative;
+    TOP: 3.125rem;
+    font-family: 'Puppies Play', cursive;
+    color: #FFFFFF;
+    font-size: 6.25rem;
+    margin-top: 0.625rem;
+}
+
+.div-video iframe{
+    border: 0.3125rem solid #F4EDE3;
+    border-radius: 0.625rem;
+    max-width:100%
+}
+
+.Old-Albums{
+    background-color: #F4EDE3;
+    padding: 2.1875rem 1.25rem 2.8125rem;
+    margin-top: 3.75rem;
+}
+
+.old-p-1::after{
+    content: "♡  ✦  ♡";
+    display: block;
+    font-family: 'Playfair Display', serif;
+    color: #708AAA;
+    text-align: center;
+    margin: 0.9375rem 0 2.1875rem;
+}
+
+.Old-Albums-Pictures{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5625rem;
+    max-width: 61.25rem;
+    margin: auto;
+}
+
+.Old-Albums-Pictures img{
+    width: 17.5rem;
+}
+
+.Album-Card{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 31%;
+}
+
+.Album-Card img{
+    width: 45%;
+    height: auto;
+}
+
+.Album-Info{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 55%;
+}
+
+.Album-Year{
+    font-family: 'Playfair Display', serif;
+    font-size: 0.875rem;
+    color: #708AAA;
+}
+
+.Album-Info h3{
+    font-family: 'Playfair Carattere', cursive;
+    font-size: 1.5rem;
+    color: #244866;
+}
+
+.Album-Phrase{
+    font-family: 'Playfair Display', serif;
+    font-size: 0.75rem;
+    color:#244866;
+}
+
+.Album-Info ul{
+    padding-left: 1.25rem;
+}
+
+.Album-Info li{
+    font-family: 'Playfair Display', serif;
+    font-size: 0.75rem;
+    color:#244866;
+    margin-bottom: 0.31rem;
+}
+/*----------------------Rest Section---------------------------*/
+
+.Rest-section{
+    background-image: url('Sabrina Imagenes/Azul_User.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 3.75rem;
+     color: #FFFFFF;
+    font-family: 'Carattere', cursive;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 3.4375rem;
+}
+
+ .Rest-section h2{
+    text-align: center;
+    margin-bottom: 2.5rem;
+    margin-top: 0;
+ }
+.rest-div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.rest-content{
+    max-width: 25rem;
+    text-align: center;
+}
+
+.rest-content h3{
+    font-family: 'Carattere', cursive;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.rest-content p{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+.Rest-section img{
+    width: 6.25rem;
+    height: auto;
+}
+
+.Rest-section button{
+    border-radius: 1.5625rem;
+    background-color: transparent;
+    color: #FFFFFF;
+    font-family: 'Playfair Display', serif;
+    border: 0.0625rem solid white;
+}
+
+/*----------------------On Tour Section---------------------------*/
+.On-Tour-section{
+    background-image: none;
+    background-color: #F4EDE3;
+    padding: 3.75rem 8%;
+}
+
+.On-Tour-section h1{
+    color: #244866;
+    font-family: 'Carattere', cursive;
+    font-size: 4.0625rem;
+}
+
+.Upcoming-Dates{
+    width: 12.5rem;
+}
+
+.dates{
+    color:#244866;
+    font-family: 'Puppies Play', cursive;
+    font-size: 1.75rem;
+    width: 80%;
+    border-collapse: collapse;
+}
+
+.dates td{
+    padding: 0.9375rem 1.5625rem;
+    border-bottom: 0.0625rem solid #B8C5D0;
+}
+
+.dates button{
+    background-color: transparent;
+    border-radius: 3.125rem;
+    border: 0.0625rem solid #244866;
+    color:#244866;
+    padding: 0.5rem 1.125rem;
+    cursor: pointer;
+}
+
+.Table-Image{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.Tour-Pictures{
+    display:flex;
+    justify-content: center;
+    gap: 1.875rem;
+    margin-top: 1.875rem;
+}
+
+.World-Map{
+    width: 18.75rem;
+}
+
+.SabrinaC-Sticker{
+    width: 6.25rem;
+}
+/*----------------------Merchandising Section---------------------------*/
+.Merchandising-Section{
+    background-image: url('Sabrina Imagenes/Fondo_Galeria.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Merchandising-Section h1{
+ font-family: 'Carattere', cursive;
+ color: #FFFFFF;
+}
+
+.Merchandising-Section p{
+     font-family: 'Puppies Play', cursive;
+     color: #FFFFFF;   
+} 
+
+.Gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2.5rem;
+    max-width: 43.75rem;
+    margin: auto;
+    align-items: flex-start;
+}
+
+.Gallery .card{
+    width: 12.5rem;
+    height: 12.5rem;
+    background-color: #F4EDE3;
+    border-radius: 0.9375rem;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.Gallery .card:hover{
+    height: 18.75rem;
+}
+
+.Gallery .card img{
+    width: 12.5rem;
+}
+
+.Gallery .content{
+    padding: 0.625rem;
+    text-align: center;
+    color: #244866;
+}
+
+.Gallery .content p{
+    opacity: 0;
+    transition: 5s;
+}
+
+.Gallery .content h4{
+    opacity: 0;
+    transition: 5s;
+}
+
+.Gallery .card:hover .content p{
+    opacity: 1;
+}
+
+.Gallery .card:hover .content h4{
+    opacity: 1;
+}
+
+.Gallery img{
+    width: 12.5rem;
+}
+
+/*----------------------Contact Section---------------------------*/
+.Contact-section{
+    background-image: url('Sabrina Imagenes/Fondo_Contact.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 3.125rem;
+}
+
+.Contact-section p{
+    font-family: 'Puppies Play', cursive;
+    color: #FFFFFF;
+}
+
+.Contact-section h1{
+    font-family: 'Carattere', cursive;
+    color: #FFFFFF;
+}
+
+.Contact-Details{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.Contact-Details input{
+    background-image: url('Sabrina Imagenes/paper-form.png');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    padding: 0.9375rem;
+    color: #708AAA;
+}
+
+::placeholder{
+    color: #708AAA;
+    font-weight: bold;
+}
+
+textarea::placeholder{
+    color: #708AAA;
+    font-weight: bold;
+}
+
+.Contact-section img{
+    width: 9.375rem;
+}
+
+/*---Div Footer--- (Inside of Contact because this section share background-image)*/
+.Footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20rem;
+    margin-top: 5rem;
+}
+
+.Footer a{
+    text-decoration: none;
+    color:#a08294;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Footer li{
+    list-style: none;
+}
+
+/*-------------------Media Query Phone---------------------*/
+@media screen and (max-width: 600px){
+
+    /*Nav Bar*/
+    .Navegation-bar{
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .Navegation-bar a{
+        font-size: 12px;
+    }
+
+    .SC-Logo{
+        width: 100%;
+        text-align: center;
+    }
+
+    .SC-Logo img{
+        width: 45px;
+    }
+
+    /*Hero/Portada*/
+    .Hero-Section{
+        min-height:100vh;
+    }
+    .Biography-Title h1{
+        font-size: 45px;
+    }
+
+    .First-Paragraph-Bio img, .Second-Paragraph-Bio img, .Third-Paragraph-Bio img{
+        width: 150px;
+        max-width: 100%;
+    }
+
+    .First-Paragraph-Bio , .Second-Paragraph-Bio , .Third-Paragraph-Bio {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+
+
+    /*Albums*/
+    .Album-Section{
+        padding: 40px 5%;
+    }
+
+    .Album-Section h1{
+        font-size: 45px;
+        margin-left: 0;
+    }
+
+    .Intro-Album, .shortsweet-Album{
+        flex-direction: column;
+    }
+
+    .Intro-Album img{
+        max-width: 100%;
+    }
+
+    .shortsweet-Album{
+        padding: 25px;
+        gap: 20px;
+        background-size: cover;
+    }
+
+    .shortsweet-Album img{
+         left: 0;
+         max-width: 100%;
+    }
+
+    .Song-List-1, .Song-List-2{
+       width: 100%;
+    }
+
+    .shortsweet-Album iframe{
+        width: 100%;
+    }
+
+    .div-video iframe{
+        width: 100%;
+    }
+
+    .Album-Card{
+        width: 100%;
+        max-width: 350px;
+    }
+
+    /*Rest*/
+    .Rest-section{
+        padding: 40px 5%;
+    }
+
+    .dates{
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .dates td{
+       padding: 8px 4px;
+    }
+
+    .dates button{
+       padding: 5px;
+       font-size: 11px;
+    }
+
+    .Tour-Pictures{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .World-Map{
+        max-width: 100%;
+    }
+
+    /*Merchandising*/
+    .Merchandising-Section{
+        padding: 40px 5%;
+    }
+    .Gallery{
+        gap: 20px;
+    }
+    .Gallery .card{
+        width: 200px;
+        height: auto;
+    }
+    /*cONTACT*/
+    .Contact-section{
+        padding: 40px 5%;
+    }
+
+    .Contact-Details{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .contact-form input, contact-form textarea {
+        max-width: 100%;
+    }
+
+    .Footer{
+        flex-direction: column;
+        gap: 25px;
+        margin-top: 40px;
+    }
+
+
+}

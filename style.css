@@ -81,6 +81,12 @@ html{
     z-index:10;
 }
 
+.Hero-Button a{
+ text-decoration: none;
+ color: #FFFFFF;
+  font-family: 'Playfair Display', cursive;
+}
+
 .Music-Button{
     position:absolute;
     top:2rem;
@@ -290,6 +296,13 @@ font-size:1rem;
     margin-top: 0.625rem;
 }
 
+.Videos-Introduction h2{
+    font-family: 'Playfair Display', serif;
+    color: #FFFFFF;
+    font-size: 2rem;
+    margin-top: 0.625rem;
+}
+
 
 .shortsweet-Album{
  background-image: url('Sabrina Imagenes/Papel Album.png');
@@ -383,6 +396,16 @@ font-size:1rem;
     margin: 0.9375rem 0 2.1875rem;
 }
 
+.old-p-1 {
+    content: "♡  ✦  ♡";
+    display: block;
+    font-family: 'Playfair Display', serif;
+    color: #708AAA;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0.9375rem 0 2.1875rem;
+}
+
 .Old-Albums-Pictures{
     display: flex;
     flex-wrap: wrap;
@@ -457,17 +480,17 @@ font-size:1rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    font-size: 3.4375rem;
 }
 
  .Rest-section h2{
     text-align: center;
     margin-bottom: 2.5rem;
-    margin-top: 0;
+    margin-bottom: 3rem;
  }
 .rest-div{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
     gap: 20px;
 }
 
@@ -480,6 +503,7 @@ font-size:1rem;
     font-family: 'Carattere', cursive;
     font-size: 3rem;
     margin-bottom: 1rem;
+    justify-content: center;
 }
 
 .rest-content p{
@@ -666,18 +690,23 @@ font-size:1rem;
     background-position: center;
     background-repeat: no-repeat;
     background-color: transparent;
+    outline: none;
     padding: 0.9375rem;
     color: #708AAA;
 }
 
-::placeholder{
-    color: #708AAA;
-    font-weight: bold;
-}
+
 
 textarea::placeholder{
     color: #708AAA;
     font-weight: bold;
+}
+.Contact-section textarea{
+    background-image: url('Sabrina Imagenes/paper-form.png');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
 }
 
 .Contact-section img{
@@ -691,6 +720,11 @@ textarea::placeholder{
     align-items: flex-start;
     gap: 20rem;
     margin-top: 5rem;
+}
+
+.Footer h2{
+    font-family: 'Carattere', cursive;
+    color: #FFFFFF;
 }
 
 .Footer a{
